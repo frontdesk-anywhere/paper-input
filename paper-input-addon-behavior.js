@@ -4,7 +4,7 @@ import { flush } from '../polymer/lib/legacy/polymer.dom.js';
 export const PaperInputAddonBehavior = {
   attached: function() {
     // Workaround for https://github.com/webcomponents/shadydom/issues/96
-    flush();
+    //flush();
     this.fire('addon-attached');
   },
 
